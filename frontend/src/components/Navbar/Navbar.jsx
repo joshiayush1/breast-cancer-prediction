@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import hamburgerMenu from "../../assets/bars-solid.svg"
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     const [isOpen , setIsOpen] = useState(false);
@@ -10,20 +10,20 @@ const Navbar = () => {
 
   return (
     <header>
-    <nav className='w-screen h-28 no-underline flex items-center justify-between'>
+    <nav className='w-screen h-[16vh] no-underline flex items-center justify-between'>
         <div className='navLeft w-1/2 h-full sm:pl-20 pl-5 flex items-center'>
         <ul>
-            <li className='text-3xl font-bold tracking-tighter text-[#072AC8]'><a href="">BreastCare</a></li>
+            <li className='text-3xl font-semibold tracking-tighter text-[#072AC8]'><a href="">BreastCare</a></li>
         </ul>
         </div>
 
         <div className='hamburgermenu lg:hidden w-1/2 h-full flex items-center justify-end pr-10'>
-            <button onClick={toggleMenu} className='relative'><img src={hamburgerMenu} alt="Menu" className='w-7 h-7'/></button>
+            <button onClick={toggleMenu} className='relative'><AiOutlineMenu className='text-xl text-stone-700 '/></button>
         </div>
 
         {isOpen && (
           <div className='absolute w-48 h-50 mr-10 mt-60 right-0 drop-shadow-md bg-white'>
-            <ul className='w-full h-full text-[404040]'>
+            <ul className='w-full h-full text-stone-700 '>
                 <li className='h-10 w-full pl-4 mt-3'><a href="">Home</a></li>
                 <li className='h-10 w-full pl-4'><a href="">About BreastCare</a></li>
                 <li className='h-10 w-full pl-4'><a href="">Articles</a></li>
@@ -33,8 +33,8 @@ const Navbar = () => {
           </div>   
         )}
 
-        <div className='lg:block hidden navRight w-1/2 place-content-center h-full sm:pr-20 pr-5'>
-        <ul className='w-full lg:flex items-center justify-evenly text-[404040]'>
+        <div className='lg:flex hidden navRight w-1/2 h-full sm:pr-20 pr-5'>
+        <ul className='w-full lg:flex items-center justify-evenly text-stone-700 '>
             <li><a href="">Home</a></li>
             <li><a href="">About BreastCare</a></li>
             <li><a href="">Articles</a></li>
