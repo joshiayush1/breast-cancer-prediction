@@ -17,13 +17,13 @@ const Navbar = () => {
         </ul>
         </div>
 
-        <div className='hamburgermenu sm:hidden w-1/2 h-full flex items-center justify-end pr-10'>
+        <div className='hamburgermenu lg:hidden w-1/2 h-full flex items-center justify-end pr-10'>
             <button onClick={toggleMenu} className='relative'><img src={hamburgerMenu} alt="Menu" className='w-7 h-7'/></button>
         </div>
 
         {isOpen && (
           <div className='absolute w-48 h-50 mr-10 mt-60 right-0 drop-shadow-md bg-white'>
-            <ul className='w-full h-full'>
+            <ul className='w-full h-full text-[404040]'>
                 <li className='h-10 w-full pl-4 mt-3'><a href="">Home</a></li>
                 <li className='h-10 w-full pl-4'><a href="">About BreastCare</a></li>
                 <li className='h-10 w-full pl-4'><a href="">Articles</a></li>
@@ -33,8 +33,8 @@ const Navbar = () => {
           </div>   
         )}
 
-        <div className='hidden navRight w-1/2 h-full flex sm:pr-20 pr-5'>
-        <ul className='w-full sm:flex items-center justify-evenly'>
+        <div className='lg:block hidden navRight w-1/2 place-content-center h-full sm:pr-20 pr-5'>
+        <ul className='w-full lg:flex items-center justify-evenly text-[404040]'>
             <li><a href="">Home</a></li>
             <li><a href="">About BreastCare</a></li>
             <li><a href="">Articles</a></li>
