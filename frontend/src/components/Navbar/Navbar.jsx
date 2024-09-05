@@ -35,11 +35,11 @@ const Navbar = () => {
 
         <div className='lg:flex hidden navRight w-1/2 h-full sm:pr-20 pr-5'>
         <ul className='w-full lg:flex items-center justify-evenly text-stone-700 '>
-            <li><a href="">Home</a></li>
-            <li><a href="">About BreastCare</a></li>
-            <li><a href="">Articles</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Contact us</a></li>
+            <li className='hover:text-stone-400'><a href="">Home</a></li>
+            <li className='hover:text-stone-400'><a href="">About BreastCare</a></li>
+            <li className='hover:text-stone-400'><a href="">Articles</a></li>
+            <li className='hover:text-stone-400'><a href="">FAQ</a></li>
+            <li className='hover:text-stone-400'><a href="">Contact us</a></li>
         </ul>
         </div>
     </nav>
