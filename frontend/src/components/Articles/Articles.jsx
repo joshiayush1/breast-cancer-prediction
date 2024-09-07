@@ -7,18 +7,18 @@ import article3 from '../../assets/article3.jpg'; // Correct way to import an im
 
 const Articles = () => {
   return (
-    <div className="h-[60vh] md:h-[100vh] w-screen flex flex-col items-center">
+    <div className="h-[60vh] md:h-[110vh] w-screen flex flex-col items-center">
       <h1 className="h-[10vh] md:h-[12vh] mb- w-full flex justify-center items-center text-2xl md:text-5xl font-semibold tracking-tight text-[#404040]">
         Articles
       </h1>
       <p className="w-3/4 text-center mb-28 text-xs md:text-md text-[#404040] opacity-50 font-semibold">
       Some articles that might help you
       </p>
-      <div className="px-20">
+      <div className="px-20 hover:opacity-90 cursor-pointer">
         <Carousel>
           <Carousel.Item>
             <img
-              className="w-auto lg:h-[500px] object-contain rounded-2xl bg-red-100"
+              className="w-auto lg:h-[500px] object-contain rounded-2xl bg-red-100 "
               src={article1}
               alt="First slide"
             />

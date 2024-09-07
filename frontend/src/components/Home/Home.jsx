@@ -27,7 +27,7 @@ const Home = () => {
         </button>
         <p className="mt-5 text-xs text-stone-700 font-bold">
           Want to learn how it works?{" "}
-          <span className="text-[#072AC8]">Tap here</span>
+          <span className="text-[#072AC8] cursor-pointer hover:underline"><a href="">Tap here</a></span>
         </p>
       </div>
       <div className="rightSide h-full w-full md:w-1/2 heroRight flex items-center justify-center">
