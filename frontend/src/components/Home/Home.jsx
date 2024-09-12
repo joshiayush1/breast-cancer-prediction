@@ -37,20 +37,20 @@ const Home = () => {
           className="h-auto w-7/12 relative bg-auto rounded-full z-10 shadow-xl"
         />
         <div className="w-96 h-96 z-20 absolute">
-        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 top-16 right-52 lg:top-0 lg:right-64 absolute rounded-lg shadow-lg flex items-center bg-white hover:bg-slate-100 hover:cursor-pointer">
+        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 top-16 right-52 lg:top-0 lg:right-64 absolute rounded-lg shadow-lg flex items-center bg-white hover:cursor-pointer transform transition-transform duration-300 hover:scale-105">
         <FaSearch className="w-6 h-6 ml-4 mr-4 text-[#072AC8]"/>
         <div>
           <h3 className="text-stone-700 text-xs lg:text-sm">Well trained tool </h3>
           <p className="hidden lg:block text-xs text-stone-700 opacity-50 font-semibold">Upto 97% accuracy</p>
         </div>
         </div>
-        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 absolute bottom-36 left-56 lg:left-64 rounded-lg shadow-lg flex items-center bg-white hover:bg-slate-100 hover:cursor-pointer">
+        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 absolute bottom-36 left-56 lg:left-64 rounded-lg shadow-lg flex items-center bg-white hover:cursor-pointer transform transition-transform duration-300 hover:scale-105">
         <div className="ml-6">
           <h3 className="text-stone-700 text-xs lg:text-sm">No Signup required</h3>
         </div>
         <FaCheck className="w-6 h-6 ml-6 text-[#072AC8]"/>
         </div>
-        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 absolute bottom-20 right-56 lg:bottom-10 lg:right-64 rounded-lg shadow-lg flex items-center bg-white hover:bg-slate-100 hover:cursor-pointer">
+        <div className="w-1/3 h-10 lg:w-7/12 lg:h-14 absolute bottom-20 right-56 lg:bottom-10 lg:right-64 rounded-lg shadow-lg flex items-center bg-white hover:cursor-pointer transform transition-transform duration-300 hover:scale-105">
         <FaLock className="w-6 h-6 ml-4 mr-4 text-[#072AC8]"/>        
         <div>
           <h3 className="text-stone-700 text-xs lg:text-sm">Data privacy</h3>
