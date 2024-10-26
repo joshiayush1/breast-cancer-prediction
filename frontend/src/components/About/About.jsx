@@ -18,7 +18,7 @@ const About = () => {
         technology, providing accurate and timely predictions to improve patient
         outcomes and support the fight against cancer
       </p>
-      <div className="boxes w-full h-[100vh] flex flex-col md:flex-row justify-evenly items-center px-20">
+      <div className="aboutSection boxes w-full h-[100vh] flex flex-col md:flex-row justify-evenly items-center px-20">
         <Link to="/about/What_is_breastcare" className="w-40 h-40 lg:w-56 lg:h-56 flex gap-6 flex-col justify-center items-center shadow-xl rounded-2xl hover:bg-slate-100 cursor-pointer">
           <FaLaptopCode className="w-20 h-20 text-[#072AC8]" />
           <h4 className="text-sm text-[#404040] font-semibold">

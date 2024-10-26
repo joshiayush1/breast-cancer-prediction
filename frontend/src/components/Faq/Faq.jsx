@@ -32,7 +32,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="aboutSection h-auto w-screen flex flex-col items-center">
+    <div className="faqSection h-auto w-screen flex flex-col items-center">
       <h1 className="h-auto mb-14 md:mb-20 w-full flex justify-center items-center text-2xl md:text-5xl font-semibold tracking-tight text-[#404040]">
         Frequently Asked Questions
       </h1>

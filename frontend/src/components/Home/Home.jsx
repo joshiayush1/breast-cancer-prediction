@@ -7,7 +7,7 @@ import { FaLock } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="w-screen h-[84vh] flex flex-col md:flex-row">
+    <section className="homeSection w-screen h-[84vh] flex flex-col md:flex-row">
       <div className="leftSide h-full w-full md:w-1/2 heroLeft flex flex-col justify-center px-5 md:px-20">
         <h1 className="text-2xl md:text-4xl tracking-tighter font-semibold text-stone-700 text-wrap leading-tight">
           {" "}

@@ -7,7 +7,7 @@ import article3 from "../../assets/article3.jpg";
 
 const Articles = () => {
   return (
-    <div className="h-[60vh] md:h-[110vh] w-screen flex flex-col items-center">
+    <div className="articlesSection h-[60vh] md:h-[110vh] w-screen flex flex-col items-center">
       <h1 className="h-[10vh] md:h-[12vh] mb- w-full flex justify-center items-center text-2xl md:text-5xl font-semibold tracking-tight text-[#404040]">
         Articles
       </h1>

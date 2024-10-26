@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="w-full h-[100vh] flex flex-col md:flex-row justify-evenly items-center bg-slate-100">
         <div className="w-1/2 h-full flex flex-col md:px-20">
           <h1 className="text-3xl font-semibold tracking-tighter text-[#072AC8] my-5">
-            <a href="">BreastCare</a>
+            <a href="/">BreastCare</a>
           </h1>
           <p className="text-[#404040] text-xs font-semibold">
             We’re here to help with any questions or concerns you might have

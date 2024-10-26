@@ -8,7 +8,7 @@ const Q1 = () => {
   return (
     <>
     <ScrollToTop />
-    <Navbar />
+    {/* <Navbar /> */}
     <What_is_breastcare />
     <Footer />
     </>
