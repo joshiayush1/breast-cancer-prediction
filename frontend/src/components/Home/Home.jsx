@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import banner2 from "../../assets/banner2.png";
 import { FaSearch } from "react-icons/fa";
@@ -22,13 +23,15 @@ const Home = () => {
           weapon. Keep pushing forward, for each battle won brings you closer to
           healing.
         </p>
-        <button className="bg-[#072AC8] hover:opacity-80 text-white h-12 w-60 rounded-lg flex justify-center items-center mt-10">
+        <Link to="/predict" className="cursor-pointer bg-[#072AC8] hover:opacity-80 text-white h-12 w-60 rounded-lg flex justify-center items-center mt-10">
           Start Prediction <FaArrowRightLong className="ml-8 text-xl" />
-        </button>
-        <p className="mt-5 text-xs text-stone-700 font-bold">
+        </Link>
+        <Link to="/about/What_is_breastcare" className="mt-5 text-xs text-stone-700 font-bold">
           Want to learn how it works?{" "}
           <span className="text-[#072AC8] cursor-pointer hover:underline"><a href="">Tap here</a></span>
-        </p>
+          <p className="mt-5 text-xs text-stone-700 font-bold">
+          </p>
+        </Link>
       </div>
       <div className="rightSide h-full w-full md:w-1/2 heroRight flex items-center justify-center">
         <img

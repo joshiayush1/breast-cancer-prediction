@@ -30,8 +30,8 @@ const Contact = () => {
             Email : ayushjoshi207@gmail.com
           </span>
           <span className="flex mt-2">
-            <FaLinkedin className="cursor-pointer text-blue-600 h-7 w-7" />
-            <IoLogoGithub className="cursor-pointer h-7 w-7" />
+            <a href="https://www.linkedin.com/in/ayush-joshi-202902293/"><FaLinkedin className="cursor-pointer text-blue-600 h-7 w-7" /></a>
+            <a href="https://github.com/joshiayush1"><IoLogoGithub className="cursor-pointer h-7 w-7" /></a>
           </span>
         </div>
       </div>

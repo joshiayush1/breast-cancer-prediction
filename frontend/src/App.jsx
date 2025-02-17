@@ -7,6 +7,8 @@ import Q3 from "./Ques/Q3";
 import Q4 from "./Ques/Q4";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PredictionPage from "./Prediction/PredictionPage";
+import ResultPage from "./Result/ResultPage";
 
 const App = () => {
   return (
@@ -19,6 +21,9 @@ const App = () => {
           <Route path="/about/Who_is_it_for" element={<Q2 />}/>
           <Route path="/about/Why_breastcare" element={<Q3 />}/>
           <Route path="/about/Data_privacy" element={<Q4 />}/>
+
+          <Route path="/predict" element={<PredictionPage />} />
+          <Route path="/predicted-result" element={<ResultPage />} />
         </Routes>
       </Router>
     </>
